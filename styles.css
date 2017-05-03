@@ -1,0 +1,84 @@
+/* body css in general */
+
+body {
+	background-color: #fefefe;
+    font-size: 17px;
+    color: #212121;
+    line-height: 1.5;
+}
+
+/* header CSS */
+header {
+    height: 100px;
+    background-color: #fafafa;
+    color: #212121;
+    float: top;
+}
+
+/* size of logo */
+
+#logo > img {
+    height:80px;
+    margin: 10px;
+}
+
+nav {
+    float: right;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+/* link */
+header a {
+    color: #212121;
+    text-decoration: none;
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    -webkit-transition: all 0.5s ease-in-out; 
+    -moz-transition: all 0.5s ease-in-out;
+    font-size: 16px;
+}
+
+/* mouse over link */
+header a:hover {
+    color: #E25D48;
+    -webkit-transition: all 0.5s ease-in-out; 
+    -moz-transition: all 0.5s ease-in-out;
+}
+
+/* selected link */
+header a:active {
+    color: #E25D48;
+    -webkit-transition: all 0.5s ease-in-out; 
+    -moz-transition: all 0.5s ease-in-out;
+}
+
+a {
+    color: #E25D48;
+    -webkit-transition: all 0.5s ease-in-out; 
+    -moz-transition: all 0.5s ease-in-out;
+}
+
+main {
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-left: 10%;
+    padding: color #212121;
+    text-align: justify;
+    min-width: 790px;
+    width: 80%;
+}
+
+/* footer css */
+
+footer {
+    padding: 15px;
+    background-color: #fafafa;
+    color: #212121;
+    float: bottom;
+    font-size: 14px;
+    margin-top: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
